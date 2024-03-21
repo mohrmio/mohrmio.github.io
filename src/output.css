@@ -585,6 +585,10 @@ video {
   margin-right: auto;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
