@@ -585,8 +585,29 @@ video {
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .w-1\/2 {
   width: 50%;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-zinc-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
 }
 
 .font-mono {
