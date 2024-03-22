@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.big-button {
+		@apply flex-auto w-64 h-64 rounded-lg text-center text-2xl font-bold text-zinc-50/75 flex items-center justify-center m-3 relative  z-0;
+		@apply transition ease-in-out delay-100 duration-300 hover:text-zinc-50/100;  
+		@apply before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:rounded-lg
+	}
+	.big-button::before {
+		@apply hover:scale-x-105 -z-10 transition ease-in-out delay-100 duration-300 hover:text-zinc-50/100; 
+	}
+	
+}

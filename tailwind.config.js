@@ -5,7 +5,11 @@ module.exports = {
 		container: {
 			center: true,
 		},
-    extend: {},
+    extend: {
+		  backgroundImage: {
+				'squigs':"url('./public/images/90squiggle.png')",		
+      },
+		},
   },
   plugins: [],
 }
